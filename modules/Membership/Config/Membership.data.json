@@ -1,0 +1,61 @@
+{
+	"tables":{
+		"member":{
+			"data":{
+				"columns":["_id","person_entity_id","member_type_id","memberstatus_id","mdate","cdate","deleted"],
+				"values":[
+				]
+			}
+		},
+		"member_memberdate":{
+			"data":{
+				"columns":["id","member_person_entity_id","memberdate_id","member_memberdate_type_id","primary","mdate","cdate","deleted"],
+				"values":[
+				]
+			}
+		},
+		"member_memberdate_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"start","Start"],
+					[3,"terminate","Terminate"]
+				]
+			}
+		},
+		"member_type":{
+			"data":{
+				"columns":["id","name","description","abbreviation"],
+				"values":[
+					[1,"default","Default","DFT"],
+					[2,"regular","Regular Full Time","R"],
+					[3,"parttime","Part Time","P"],
+					[4,"contractor","Contractor","C"],
+					[5,"visitor","Visitor","V"],
+					[6,"seasonal","Seasonal","S"],
+					[7,"temp","Temporary Employee","T"],
+					[8,"intern","Intern","I"]
+				]
+			}
+		},
+		"memberdate":{
+			"data":{
+				"columns":["id","value","mdate","cdate","deleted"],
+				"values":[
+				]
+			}
+		},
+		"memberstatus":{
+			"data":{
+				"columns":["id","name","description","abbreviation"],
+				"values":[
+					[1,"default","Default","DFT"],
+					[2,"active","Active","A"],
+					[3,"inactive","Inactive","I"],
+					[4,"terminated","Terminated","T"]
+				]
+			}
+		}
+	}
+}

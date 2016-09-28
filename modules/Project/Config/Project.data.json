@@ -1,0 +1,126 @@
+{
+	"tables":{
+		"budget_projectentity_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"original","Original"],
+					[3,"current","Current"],
+					[4,"initial","Initial"]
+				]
+			}
+		},
+		"budget_task_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"original","Original"],
+					[3,"current","Current"],
+					[4,"initial","Initial"]
+				]
+			}
+		},
+		"entity_projectentity_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"manager","Project Manager"],
+					[3,"sponsor","Project Sponsor"],
+					[4,"deputy","Project Deputy"],
+					[5,"admin","Project Administrator"]
+				]
+			}
+		},
+		"entity_task_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"company","Company"],
+					[3,"contact","Contact"],
+					[4,"manager","Manager"],
+					[5,"teammember","Team Member"],
+					[6,"owner","Owner"]
+				]
+			}
+		},
+		"percentcomplete_project_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"scheduled","Scheduled Percent Complete"],
+					[3,"actual","Actual Percent Complete"]
+				]
+			}
+		},
+		"percentcomplete_task_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"scheduled","Scheduled Percent Complete"],
+					[3,"actual","Actual Percent Complete"]
+				]
+			}
+		},
+		"projectentity_projectentitydate_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"plannedstart","Planned Start Date"],
+					[3,"plannedend","Planned End Date"],
+					[4,"actualstart","Actual Start Date"],
+					[5,"actualend","Actual End Date"],
+					[6,"originalstart","Original Start Date"],
+					[7,"originalend","Original End Date"]
+				]
+			}
+		},
+		"projectentitystatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"active","Active"],
+					[3,"inactive","Inactive"],
+					[4,"closed","Closed"]
+				]
+			}
+		},
+		"task_task_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"]
+				]
+			}
+		},
+		"taskpriority":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"low","Low"],
+					[3,"medium","Medium"],
+					[4,"high","High"]
+				]
+			}
+		},
+		"taskstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"active","Active"],
+					[3,"inactive","Inactive"],
+					[4,"closed","Closed"]
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+body
+{font-family:tahoma,arial,verdana,sans-serif}
+
+.admin-panel-header .x-panel-body
+{background-color:transparent;padding:5px 10px;}
+
+.admin-panel-header .admin-title
+{font-size:28px;font-weight:normal;line-height:50px;}
+
+.x-tab-panel-header, .x-tab-panel-footer
+{background-color:transparent;border-color:transparent;}
+
+ul.x-tab-strip-top
+{background-color:transparent;background-image:none;}
+
+.x-tab-strip span.x-tab-strip-text
+{font-weight:bold;}
+
+.admin-crumb-separator
+{color:#777777;margin:0px 5px;}
+
+.x-tree-node-el .admin-tree-topicnode-icon
+{background-image:url(../images/arrow_down.png)}
+
+.x-tree-node-leaf .admin-tree-topicnode-icon
+{background-image:url(../images/arrow_right.png)}
+
+.admin-panel-detailpanel h1
+{font-size:24px;color:#1C3D7C;border-bottom:2px solid #FF7901;padding-bottom:2px;}
+
+.admin-panel-detailpanel h2
+{font-size:16px;color:#1C3D7C;border-bottom:1px solid #cccccc;padding-bottom:2px;padding-top:10px;}
+
+.admin-panel-detailpanel .x-panel-body
+{padding:10px;}
+
+.admin-panel-detailpanel p
+{font-size:16px;line-height:20px;color:#555555;margin:5px 0px 15px 0px;}
+
+.admin-panel-detailpanel ol,
+.admin-panel-detailpanel ul
+{margin-bottom: 10px;margin-left: 20px;}
+
+.admin-panel-detailpanel ul li
+{list-style:none outside url(../images/bullet_green.png);line-height:25px;list-style-position:inside;margin-left:20px;}
+
+.admin-panel-detailpanel .note
+{color:#777777;font-size:13px;line-height:20px;}

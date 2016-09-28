@@ -1,0 +1,19 @@
+{
+	"tables":{
+		"query_queryset_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"mutiplechoice","Multiple Choice"],
+					[3,"multipleselect","Multiple Select"],
+					[4,"commentonly","Comment Only"],
+					[5,"textonly","Text Only"],
+					[6,"checkbox","Checkbox"],
+					[7,"date","Date"],
+					[8,"datetime","Date Time"]
+				]
+			}
+		}
+	}
+}

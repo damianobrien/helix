@@ -1,0 +1,35 @@
+{
+	"tables":{
+		"budget_budgetvalue_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[1,"labor","Labor Revenue"],
+					[1,"expense","Expense Revenue"],
+					[1,"hours","Man Hours"]
+				]
+			}
+		},
+		"budget_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"project","Project"],
+					[3,"task","Task"]
+				]
+			}
+		},
+		"budgetchange_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"current","Change to the current budget"],
+					[3,"original","Change to the original budget"]
+				]
+			}
+		}
+	}
+}

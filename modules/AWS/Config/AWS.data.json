@@ -1,0 +1,84 @@
+{
+	"tables":{
+		"hit_hitdate_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"creation","Creation Date"],
+					[3,"expiration","Expiration Date"]
+				]
+			}
+		},
+		"hitassignment_hitassignmentdate_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"autoapproval","Auto Approval Time"],
+					[3,"accept","Accept Time"],
+					[4,"submit","Submit Time"],
+					[5,"approval","Approval Time"],
+					[6,"rejection","Rejection Time"],
+					[7,"deadline","Deadline"]
+				]
+			}
+		},
+		"hitassignmentstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"submitted","Submitted"],
+					[2,"approved","Approved"],
+					[3,"rejected","Rejected"]
+				]
+			}
+		},
+		"hitcomparison":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"notequalto","Not Equal To/Is Not"],
+					[2,"lessthan","Less Than"],
+					[3,"lessthanorequalto","Less Than or Equal To"],
+					[4,"greaterthan","Greater Than"],
+					[5,"exists","Exists"],
+					[6,"greaterthanorequalto","Greater Than or Equal To"],
+					[7,"equalto","Equal To/Is"]
+				]
+			}
+		},
+		"hitqualificationstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"granted","Granted"],
+					[2,"revoked","Revoked"]
+				]
+			}
+		},
+		"hitreviewstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"notreviewed","Not Reviewed"],
+					[2,"markedforreview","Marked For Review"],
+					[1,"reviewedappropriate","Reviewed Appropriate"],
+					[2,"reviewedinappropriate","Reviewed Inappropriate"]
+				]
+			}
+		},
+		"hitstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"assignable","Assignable"],
+					[2,"unassignable","Unassignable"],
+					[3,"reviewable","Reviewable"],
+					[4,"reviewing","Reviewing"],
+					[5,"disposed","Disposed"]
+				]
+			}
+		}
+	}
+}

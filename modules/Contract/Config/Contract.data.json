@@ -1,0 +1,36 @@
+{
+	"tables":{
+		"contract_contractvalue_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"labor","Labor Revenue"],
+					[3,"expense","Expense Revenue"],
+					[4,"hours","Man Hours"]
+				]
+			}
+		},
+		"contract_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"verbal","Verbal"],
+					[3,"written","Written contract or agreement"]
+				]
+			}
+		},
+		"contractstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"pending","Pending"],
+					[3,"active","Contract awarded and in progress"],
+					[4,"closed","Work lost or completed"]
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"tables":{
+		"post_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"article","Article"],
+					[3,"comment","Comment"]
+				]
+			}
+		},
+		"post_user_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[1,"author","Author"],
+					[1,"commentor","Commentor"],
+					[1,"editor","Editor"]
+				]
+			}
+		}
+	}
+}

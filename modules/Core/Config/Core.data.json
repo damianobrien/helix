@@ -1,0 +1,415 @@
+{
+	"tables":{
+		"address_entity_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"home","Home"],
+					[3,"billing","Billing"],
+					[4,"shipping","Shipping"],
+					[5,"business","Business"]
+				]
+			}
+		},
+		"authmethod":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"sql","SQL Authentication"],
+					[2,"ldap","LDAP Authentication"]
+				]
+			}
+		},
+		"country":{
+			"data":{
+				"columns":["id","name","abbreviation","abbreviation_3"],
+				"values":[
+					["1","Afghanistan","AF","AFG"],
+					["2","Albania","AL","ALB"],
+					["3","Algeria","DZ","DZA"],
+					["4","American Samoa","AS","ASM"],
+					["5","Andorra","AD","AND"],
+					["6","Angola","AO","AGO"],
+					["7","Anguilla","AI","AIA"],
+					["8","Antarctica","AQ","ATA"],
+					["9","Antigua And Barbuda","AG","ATG"],
+					["10","Argentina","AR","ARG"],
+					["11","Armenia","AM","ARM"],
+					["12","Aruba","AW","ABW"],
+					["13","Australia","AU","AUS"],
+					["14","Austria","AT","AUT"],
+					["15","Azerbaijan","AZ","AZE"],
+					["16","Bahamas","BS","BHS"],
+					["17","Bahrain","BH","BHR"],
+					["18","Bangladesh","BD","BGD"],
+					["19","Barbados","BB","BRB"],
+					["20","Belarus","BY","BLR"],
+					["21","Belgium","BE","BEL"],
+					["22","Belize","BZ","BLZ"],
+					["23","Benin","BJ","BEN"],
+					["24","Bermuda","BM","BMU"],
+					["25","Bhutan","BT","BTN"],
+					["26","Bolivia","BO","BOL"],
+					["27","Bosnia And Herzegowina","BA","BIH"],
+					["28","Botswana","BW","BWA"],
+					["29","Bouvet Island","BV","BVT"],
+					["30","Brazil","BR","BRA"],
+					["31","British Indian Ocean Territory","IO","IOT"],
+					["32","Brunei Darussalam","BN","BRN"],
+					["33","Bulgaria","BG","BGR"],
+					["34","Burkina Faso","BF","BFA"],
+					["35","Burundi","BI","BDI"],
+					["36","Cambodia","KH","KHM"],
+					["37","Cameroon","CM","CMR"],
+					["38","Canada","CA","CAN"],
+					["39","Cape Verde","CV","CPV"],
+					["40","Cayman Islands","KY","CYM"],
+					["41","Central African Republic","CF","CAF"],
+					["42","Chad","TD","TCD"],
+					["43","Chile","CL","CHL"],
+					["44","China","CN","CHN"],
+					["45","Christmas Island","CX","CXR"],
+					["46","Cocos (Keeling) Islands","CC","CCK"],
+					["47","Colombia","CO","COL"],
+					["48","Comoros","KM","COM"],
+					["49","Congo","CG","COG"],
+					["50","Congo, The Democratic Republic Of The","CD","COD"],
+					["51","Cook Islands","CK","COK"],
+					["52","Costa Rica","CR","CRI"],
+					["53","Cote D'Ivoire","CI","CIV"],
+					["54","Croatia (Local Name: Hrvatska)","HR","HRV"],
+					["55","Cuba","CU","CUB"],
+					["56","Cyprus","CY","CYP"],
+					["57","Czech Republic","CZ","CZE"],
+					["58","Denmark","DK","DNK"],
+					["59","Djibouti","DJ","DJI"],
+					["60","Dominica","DM","DMA"],
+					["61","Dominican Republic","DO","DOM"],
+					["62","East Timor","TP","TMP"],
+					["63","Ecuador","EC","ECU"],
+					["64","Egypt","EG","EGY"],
+					["65","El Salvador","SV","SLV"],
+					["66","Equatorial Guinea","GQ","GNQ"],
+					["67","Eritrea","ER","ERI"],
+					["68","Estonia","EE","EST"],
+					["69","Ethiopia","ET","ETH"],
+					["70","Falkland Islands (Malvinas)","FK","FLK"],
+					["71","Faroe Islands","FO","FRO"],
+					["72","Fiji","FJ","FJI"],
+					["73","Finland","FI","FIN"],
+					["74","France","FR","FRA"],
+					["75","France, Metropolitan","FX","FXX"],
+					["76","French Guiana","GF","GUF"],
+					["77","French Polynesia","PF","PYF"],
+					["78","French Southern Territories","TF","ATF"],
+					["79","Gabon","GA","GAB"],
+					["80","Gambia","GM","GMB"],
+					["81","Georgia","GE","GEO"],
+					["82","Germany","DE","DEU"],
+					["83","Ghana","GH","GHA"],
+					["84","Gibraltar","GI","GIB"],
+					["85","Greece","GR","GRC"],
+					["86","Greenland","GL","GRL"],
+					["87","Grenada","GD","GRD"],
+					["88","Guadeloupe","GP","GLP"],
+					["89","Guam","GU","GUM"],
+					["90","Guatemala","GT","GTM"],
+					["91","Guinea","GN","GIN"],
+					["92","Guinea-Bissau","GW","GNB"],
+					["93","Guyana","GY","GUY"],
+					["94","Haiti","HT","HTI"],
+					["95","Heard And Mc Donald Islands","HM","HMD"],
+					["96","Holy See (Vatican City State)","VA","VAT"],
+					["97","Honduras","HN","HND"],
+					["98","Hong Kong","HK","HKG"],
+					["99","Hungary","HU","HUN"],
+					["100","Iceland","IS","ISL"],
+					["101","India","IN","IND"],
+					["102","Indonesia","ID","IDN"],
+					["103","Iran (Islamic Republic Of)","IR","IRN"],
+					["104","Iraq","IQ","IRQ"],
+					["105","Ireland","IE","IRL"],
+					["106","Israel","IL","ISR"],
+					["107","Italy","IT","ITA"],
+					["108","Jamaica","JM","JAM"],
+					["109","Japan","JP","JPN"],
+					["110","Jordan","JO","JOR"],
+					["111","Kazakhstan","KZ","KAZ"],
+					["112","Kenya","KE","KEN"],
+					["113","Kiribati","KI","KIR"],
+					["114","Korea, Democratic People'S Republic Of","KP","PRK"],
+					["115","Korea, Republic Of","KR","KOR"],
+					["116","Kuwait","KW","KWT"],
+					["117","Kyrgyzstan","KG","KGZ"],
+					["118","Lao People'S Democratic Republic","LA","LAO"],
+					["119","Latvia","LV","LVA"],
+					["120","Lebanon","LB","LBN"],
+					["121","Lesotho","LS","LSO"],
+					["122","Liberia","LR","LBR"],
+					["123","Libyan Arab Jamahiriya","LY","LBY"],
+					["124","Liechtenstein","LI","LIE"],
+					["125","Lithuania","LT","LTU"],
+					["126","Luxembourg","LU","LUX"],
+					["127","Macau","MO","MAC"],
+					["128","Macedonia, The Former Yugoslav Republic Of","MK","MKD"],
+					["129","Madagascar","MG","MDG"],
+					["130","Malawi","MW","MWI"],
+					["131","Malaysia","MY","MYS"],
+					["132","Maldives","MV","MDV"],
+					["133","Mali","ML","MLI"],
+					["134","Malta","MT","MLT"],
+					["135","Marshall Islands","MH","MHL"],
+					["136","Martinique","MQ","MTQ"],
+					["137","Mauritania","MR","MRT"],
+					["138","Mauritius","MU","MUS"],
+					["139","Mayotte","YT","MYT"],
+					["140","Mexico","MX","MEX"],
+					["141","Micronesia, Federated States Of","FM","FSM"],
+					["142","Moldova, Republic Of","MD","MDA"],
+					["143","Monaco","MC","MCO"],
+					["144","Mongolia","MN","MNG"],
+					["145","Montserrat","MS","MSR"],
+					["146","Morocco","MA","MAR"],
+					["147","Mozambique","MZ","MOZ"],
+					["148","Myanmar","MM","MMR"],
+					["149","Namibia","NA","NAM"],
+					["150","Nauru","NR","NRU"],
+					["151","Nepal","NP","NPL"],
+					["152","Netherlands","NL","NLD"],
+					["153","Netherlands Antilles","AN","ANT"],
+					["154","New Caledonia","NC","NCL"],
+					["155","New Zealand","NZ","NZL"],
+					["156","Nicaragua","NI","NIC"],
+					["157","Niger","NE","NER"],
+					["158","Nigeria","NG","NGA"],
+					["159","Niue","NU","NIU"],
+					["160","Norfolk Island","NF","NFK"],
+					["161","Northern Mariana Islands","MP","MNP"],
+					["162","Norway","NO","NOR"],
+					["163","Oman","OM","OMN"],
+					["164","Pakistan","PK","PAK"],
+					["165","Palau","PW","PLW"],
+					["166","Palestinian Territory, Occupied","P","P"],
+					["167","Panama","PA","PAN"],
+					["168","Papua New Guinea","PG","PNG"],
+					["169","Paraguay","PY","PRY"],
+					["170","Peru","PE","PER"],
+					["171","Philippines","PH","PHL"],
+					["172","Pitcairn","PN","PCN"],
+					["173","Poland","PL","POL"],
+					["174","Portugal","PT","PRT"],
+					["175","Puerto Rico","PR","PRI"],
+					["176","Qatar","QA","QAT"],
+					["177","Reunion","RE","REU"],
+					["178","Romania","RO","ROM"],
+					["179","Russian Federation","RU","RUS"],
+					["180","Rwanda","RW","RWA"],
+					["181","Saint Kitts And Nevis","KN","KNA"],
+					["182","Saint Lucia","LC","LCA"],
+					["183","Saint Vincent And The Grenadines","VC","VCT"],
+					["184","Samoa","WS","WSM"],
+					["185","San Marino","SM","SMR"],
+					["186","Sao Tome And Principe","ST","STP"],
+					["187","Saudi Arabia","SA","SAU"],
+					["188","Senegal","SN","SEN"],
+					["189","Seychelles","SC","SYC"],
+					["190","Sierra Leone","SL","SLE"],
+					["191","Singapore","SG","SGP"],
+					["192","Slovakia (Slovak Republic)","SK","SVK"],
+					["193","Slovenia","SI","SVN"],
+					["194","Solomon Islands","SB","SLB"],
+					["195","Somalia","SO","SOM"],
+					["196","South Africa","ZA","ZAF"],
+					["197","South Georgia And The South Sandwich Islands","GS","SGS"],
+					["198","Spain","ES","ESP"],
+					["199","Sri Lanka","LK","LKA"],
+					["200","St. Helena","SH","SHN"],
+					["201","St. Pierre And Miquelon","PM","SPM"],
+					["202","Sudan","SD","SDN"],
+					["203","Suriname","SR","SUR"],
+					["204","Svalbard And Jan Mayen Islands","SJ","SJM"],
+					["205","Swaziland","SZ","SWZ"],
+					["206","Sweden","SE","SWE"],
+					["207","Switzerland","CH","CHE"],
+					["208","Syrian Arab Republic","SY","SYR"],
+					["209","Taiwan, Province Of China","TW","TWN"],
+					["210","Tajikistan","TJ","TJK"],
+					["211","Tanzania, United Republic Of","TZ","TZA"],
+					["212","Thailand","TH","THA"],
+					["213","Togo","TG","TGO"],
+					["214","Tokelau","TK","TKL"],
+					["215","Tonga","TO","TON"],
+					["216","Trinidad And Tobago","TT","TTO"],
+					["217","Tunisia","TN","TUN"],
+					["218","Turkey","TR","TUR"],
+					["219","Turkmenistan","TM","TKM"],
+					["220","Turks And Caicos Islands","TC","TCA"],
+					["221","Tuvalu","TV","TUV"],
+					["222","Uganda","UG","UGA"],
+					["223","Ukraine","UA","UKR"],
+					["224","United Arab Emirates","AE","ARE"],
+					["225","United Kingdom","GB","GBR"],
+					["226","United States","US","USA"],
+					["227","United States Minor Outlying Islands","UM","UMI"],
+					["228","Uruguay","UY","URY"],
+					["229","Uzbekistan","UZ","UZB"],
+					["230","Vanuatu","VU","VUT"],
+					["231","Venezuela","VE","VEN"],
+					["232","Viet Nam","VN","VNM"],
+					["233","Virgin Islands (British)","VG","VGB"],
+					["234","Virgin Islands (U.S.)","VI","VIR"],
+					["235","Wallis And Futuna Islands","WF","WLF"],
+					["236","Western Sahara","EH","ESH"],
+					["237","Yemen","YE","YEM"],
+					["238","Yugoslavia","YU","YUG"],
+					["239","Zambia","ZM","ZMB"],
+					["240","Zimbabwe","ZW","ZWE"]
+				]
+			}
+		},
+		"entity":{
+			"data":{
+				"columns":["id","description"],
+				"values":[
+					[1,"Helix Administrator - This is the system super-user"]
+				]
+			}
+		},
+		"entity_phone_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"home","Home"],
+					[3,"business","Business"],
+					[4,"mobile","Mobile"],
+					[5,"fax","Fax"]
+				]
+			}
+		},
+		"perm":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"admin","Administrator - Access to everything"],
+					[2,"account","Account - Access to account-restricted items"],
+					[3,"none","None - No access"]
+				]
+			}
+		},
+		"perm_user":{
+			"data":{
+				"columns":["id","perm_id","user_person_entity_id"],
+				"values":[
+					[1,1,1]
+				]
+			}
+		},
+		"person":{
+			"data":{
+				"columns":["_id","entity_id","first_name","last_name"],
+				"values":[
+					[1,1,"Helix","Admin"]
+				]
+			}
+		},
+		"person_persondate_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"birthday","Birthday"]
+				]
+			}
+		},
+		"resource_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"image","Image"],
+					[3,"document","Document"],
+					[4,"audio","Audio"],
+					[5,"video","Video"]
+				]
+			}
+		},
+		"resource_url_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"seo","Search Engine Optimization"]
+				]
+			}
+		},
+		"state":{
+			"data":{
+				"columns":["id","name","abbreviation"],
+				"values":[
+                    ["1","Alabama","AL"],
+					["2","Alaska","AK"],
+					["3","Arizona","AZ"],
+					["4","Arkansas","AR"],
+					["5","California","CA"],
+					["6","Colorado","CO"],
+					["7","Connecticut","CT"],
+					["8","Delaware","DE"],
+					["9","District Of Columbia","DC"],
+					["10","Florida","FL"],
+					["11","Georgia","GA"],
+					["12","Hawaii","HI"],
+					["13","Idaho","ID"],
+					["14","Illinois","IL"],
+					["15","Indiana","IN"],
+					["16","Iowa","IA"],
+					["17","Kansas","KS"],
+					["18","Kentucky","KY"],
+					["19","Louisiana","LA"],
+					["20","Maine","ME"],
+					["21","Maryland","MD"],
+					["22","Massachusetts","MA"],
+					["23","Michigan","MI"],
+					["24","Minnesota","MN"],
+					["25","Mississippi","MS"],
+					["26","Missouri","MO"],
+					["27","Montana","MT"],
+					["28","Nebraska","NE"],
+					["29","Nevada","NV"],
+					["30","New Hampshire","NH"],
+					["31","New Jersey","NJ"],
+					["32","New Mexico","NM"],
+					["33","New York","NY"],
+					["34","North Carolina","NC"],
+					["35","North Dakota","ND"],
+					["36","Ohio","OH"],
+					["37","Oklahoma","OK"],
+					["38","Oregon","OR"],
+					["39","Pennsylvania","PA"],
+					["40","Rhode Island","RI"],
+					["41","South Carolina","SC"],
+					["42","South Dakota","SD"],
+					["43","Tennessee","TN"],
+					["44","Texas","TX"],
+					["45","Utah","UT"],
+					["46","Vermont","VT"],
+					["47","Virginia","VA"],
+					["48","Washington","WA"],
+					["49","West Virginia","WV"],
+					["50","Wisconsin","WI"],
+					["51","Wyoming","WY"],
+					["52","Puerto Rico","PR"]
+				]
+			}
+		},
+		"user":{
+			"data":{
+				"columns":["_id","person_entity_id","username","password","authmethod_id"],
+				"values":[
+					[1,1,"admin","1edfc51ff61fdd41a1ea0ea81799d23522f379b2",1]
+				]
+			}
+		}
+	}
+}

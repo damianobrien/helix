@@ -1,0 +1,16 @@
+{
+	"tables":{
+	},
+	"options":{
+		"defaults":{
+			"tables":{
+				"charset":"utf8",
+				"overwrite":true
+			},
+			"columns":{
+				"nullable":false,
+				"default":null
+			}
+		}
+	}
+}

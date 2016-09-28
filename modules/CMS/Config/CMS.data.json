@@ -1,0 +1,36 @@
+{
+	"tables":{
+		"articlestatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[1,"new","New"],
+					[1,"active","Active"],
+					[1,"archived","Archived"]
+				]
+			}
+		},
+		"content_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"article","Article"],
+					[3,"content","Content"],
+					[4,"template","Template"]
+				]
+			}
+		},
+		"content_user_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"author","Author"],
+					[3,"editor","Editor"]
+				]
+			}
+		}
+	}
+}

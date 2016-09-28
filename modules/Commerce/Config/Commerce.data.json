@@ -1,0 +1,118 @@
+{
+	"tables":{
+		"bankaccount_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"personalchecking","Personal Checking"],
+					[3,"personalsavings","Personal Savings"],
+					[4,"businesschecking","Business Checking"],
+					[5,"businesssavings","Business Savings"]
+				]
+			}
+		},
+		"check_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"personal","Personal"],
+					[3,"business","Business"],
+					[4,"cashier","Cashier"]
+				]
+			}
+		},
+		"creditcardaccount_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"personal","Personal"],
+					[3,"business","Business"]
+				]
+			}
+		},
+		"creditcardbrand":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"visa","Visa"],
+					[3,"mastercard","MasterCard"],
+					[4,"amex","American Express"],
+					[5,"discover","Discover"]
+				]
+			}
+		},
+		"entity_payment_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"purchase","Purchase"],
+					[3,"donation","Donation"],
+					[4,"refund","Refund"]
+				]
+			}
+		},
+		"payment_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"paymentaccount","Payment Account"],
+					[3,"other","Other"]
+				]
+			}
+		},
+		"paymentaccount_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"bank","Bank Account"],
+					[3,"cc","Credit Card Account"],
+					[4,"paypal","PayPal Account"],
+					[5,"po","PO Account"]
+				]
+			}
+		},
+		"paymentmethod":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"cc","Credit Card"],
+					[3,"ach","ACH"],
+					[4,"paypal","PayPal"],
+					[5,"cash","Cash"],
+					[6,"check","Check"],
+					[7,"mo","Money Order"]
+				]
+			}
+		},
+		"paymentstatus":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"confirmed","Confirmed"],
+					[3,"rejected","Rejected"],
+					[4,"captured","Captured"],
+					[5,"unknown","Unknown"]
+				]
+			}
+		},
+		"saleitem_type":{
+			"data":{
+				"columns":["id","name","description"],
+				"values":[
+					[1,"default","Default"],
+					[2,"product","Product"],
+					[3,"service","Service"]
+				]
+			}
+		}
+	}
+}
